@@ -14,28 +14,23 @@ First, overview the first five lines of the raw data (csv file) to have a brief 
 <img src="https://github.com/user-attachments/assets/f8a99fff-37f4-40da-9a04-0b8e120e060f" width=400px>
 
 #### Data Visualization
-1. Density plot
-   Displays the probability density distribution of each feature, helping to understand the concentration trends and distribution patterns of the data. 
+1. Density plot: Displays the probability density distribution of each feature, helping to understand the concentration trends and distribution patterns of the data. 
 
    <img src="https://github.com/user-attachments/assets/20ae8a3f-e29a-4053-a7f6-a9bb796e8f8d" width=400px>
  
-2. Histogram plot
-   Shows the frequency distribution of each feature by dividing the data into intervals, helping to identify concentration areas and outliers in the data.
+2. Histogram plot: Shows the frequency distribution of each feature by dividing the data into intervals, helping to identify concentration areas and outliers in the data.
 
    <img src="https://github.com/user-attachments/assets/e57fcae9-9c8f-4115-9376-8ddb05b4de9b" width=400px>
 
 Combining these two plots, we can see that all the features basically present "0", "1", and "2" results, but the data in the second feature (F2) where 89 results are "3".
 
-3.  Gaussian mixture distribution
-   Visualizes the data as a combination of multiple Gaussian distributions, helping to identify underlying subpopulations and the overall data structure.
-
+3.  Gaussian mixture distribution: Visualizes the data as a combination of multiple Gaussian distributions, helping to identify underlying subpopulations and the overall data structure.
    <img src="https://github.com/user-attachments/assets/06f7fea4-e3a3-4472-96f5-0fa522974230" width=400px>
 
 I find that almost all of the features do not follow the Gaussian distribution, and exists many data biases.
 
-4.  Correlation heat map
-   Visualizes the correlation between different features, helping to identify the strength and direction of relationships among variables. With the darker the color in the heatmap, the more correlated the data is.
+4.  Correlation heat map: Visualizes the correlation between different features, helping to identify the strength and direction of relationships among variables. With the darker the color in the heatmap, the more correlated the data is.
 
-   <img src="https://github.com/user-attachments/assets/29c5ddac-c2ba-45b1-a9c4-aa5484cf9072" width=400px>
+   <img src="https://github.com/user-attachments/assets/29c5ddac-c2ba-45b1-a9c4-aa5484cf9072" width=500px>
 
 I find that the sixth feature (F6) and the fifth feature (F5) have the strongest correlation, and the first feature (F1) and the fourteen feature (F14) have the weakest correlation.
