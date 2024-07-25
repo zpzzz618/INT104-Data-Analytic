@@ -1,2 +1,3 @@
 # INT104-Data-Analytic
-hhhh
+This is the Coursework of the INT104 Artificial Intelligence module.
+Background
