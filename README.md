@@ -25,12 +25,13 @@ First, overview the first five lines of the raw data (csv file) to have a brief 
 Combining these two plots, we can see that all the features basically present "0", "1", and "2" results, but the data in the second feature (F2) where 89 results are "3".
 
 3.  Gaussian mixture distribution: Visualizes the data as a combination of multiple Gaussian distributions, helping to identify underlying subpopulations and the overall data structure.
+   
    <img src="https://github.com/user-attachments/assets/06f7fea4-e3a3-4472-96f5-0fa522974230" width=400px>
 
 I find that almost all of the features do not follow the Gaussian distribution, and exists many data biases.
 
 4.  Correlation heat map: Visualizes the correlation between different features, helping to identify the strength and direction of relationships among variables. With the darker the color in the heatmap, the more correlated the data is.
-
+   
    <img src="https://github.com/user-attachments/assets/29c5ddac-c2ba-45b1-a9c4-aa5484cf9072" width=500px>
 
 I find that the sixth feature (F6) and the fifth feature (F5) have the strongest correlation, and the first feature (F1) and the fourteen feature (F14) have the weakest correlation.
