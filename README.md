@@ -11,4 +11,4 @@ This part will introduce the a machine learning (ML) approach based on Python's 
 #### Data Analysis
 First, overview the first five lines of the raw data (csv file) to have a brief understanding. Then I find  the first column is the index number of the patient, the second to the sixteenth column is the answer to the fifteen questions, that is the fifteen features, and the seventeenth column is the result (which can be defined as label for supervised learning).
 
-<img src="https://github.com/user-attachments/assets/f8a99fff-37f4-40da-9a04-0b8e120e060f" width=200px>
+<img src="https://github.com/user-attachments/assets/f8a99fff-37f4-40da-9a04-0b8e120e060f" width=500px>
