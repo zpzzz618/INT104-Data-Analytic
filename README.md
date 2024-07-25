@@ -1,5 +1,5 @@
 # INT104-Data-Analytic
-This is the Coursework of the INT104 Artificial Intelligence module. The code and report is also shown in the repo
+This is the Coursework of the INT104 Artificial Intelligence module. The code and comprehensive report is also shown in the repo
 ## Background
 The goal of this project is to evaluate the physical condition of patients by designing a questionnaire with 15 questions and to determine the appropriate anesthesia method based on the scores of each question. A spreadsheet with scores from over 5000 patients is provided, with the results labeled as '0', '1', and a few as '2'. Students are required to design a classifier to categorize patients into the corresponding results based on the scores for each question. And done by three sub-tasks as follow:
 * Task 1: Dimensionality reduction
@@ -35,3 +35,8 @@ I find that almost all of the features do not follow the Gaussian distribution, 
    <img src="https://github.com/user-attachments/assets/29c5ddac-c2ba-45b1-a9c4-aa5484cf9072" width=500px>
 
 I find that the sixth feature (F6) and the fifth feature (F5) have the strongest correlation, and the first feature (F1) and the fourteen feature (F14) have the weakest correlation.
+
+The summarize of the results of data observation and need to take steps to improve them before supervisied and unsupervisied learning.
+* Exist error data. There exists data with result “3” in the second feature (F2), which needs to be removed as anomalous data.
+* Poor correlation. The correlation between the 15 features is generally weak, and only a few features such as the sixth feature (F6) and the fifth feature (F5) have a strong correlation.
+* Does not conform to Gaussian distribution. Since there are at most two possible outcomes for a single feature, and needs to be standardized or normalized before classification.
