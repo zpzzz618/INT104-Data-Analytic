@@ -5,3 +5,6 @@ The goal of this project is to evaluate the physical condition of patients by de
 * Task 1: Dimensionality reduction
 * Task 2: Build Classifiers (Supervised Learning)
 * Task 3: Unsupervised Patients Classification
+## Method
+This part will introduce the a machine learning (ML) approach based on Python's Scikit-Learn for patients classification to complete the three tasks
+### Data Observation and Pre-preparing
