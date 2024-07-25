@@ -28,13 +28,13 @@ Combining these two plots, we can see that all the features basically present "0
    
    <img src="https://github.com/user-attachments/assets/06f7fea4-e3a3-4472-96f5-0fa522974230" width=400px>
 
-I find that almost all of the features do not follow the Gaussian distribution, and exists many data biases.
+   I find that almost all of the features do not follow the Gaussian distribution, and exists many data biases.
 
 4.  Correlation heat map: Visualizes the correlation between different features, helping to identify the strength and direction of relationships among variables. With the darker the color in the heatmap, the more correlated the data is.
    
    <img src="https://github.com/user-attachments/assets/29c5ddac-c2ba-45b1-a9c4-aa5484cf9072" width=500px>
 
-I find that the sixth feature (F6) and the fifth feature (F5) have the strongest correlation, and the first feature (F1) and the fourteen feature (F14) have the weakest correlation.
+   I find that the sixth feature (F6) and the fifth feature (F5) have the strongest correlation, and the first feature (F1) and the fourteen feature (F14) have the weakest correlation.
 
 The summarize of the results of data observation and need to take steps to improve them before supervisied and unsupervisied learning.
 * Exist error data. There exists data with result “3” in the second feature (F2), which needs to be removed as anomalous data.
