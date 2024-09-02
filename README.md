@@ -40,3 +40,10 @@ The summarize of the results of data observation and need to take steps to impro
 * Exist error data. There exists data with result “3” in the second feature (F2), which needs to be removed as anomalous data.
 * Poor correlation. The correlation between the 15 features is generally weak, and only a few features such as the sixth feature (F6) and the fifth feature (F5) have a strong correlation.
 * Does not conform to Gaussian distribution. Since there are at most two possible outcomes for a single feature, and needs to be standardized or normalized before classification.
+
+#### Feature Extraction and Selection
+1. PCA for feature reduction
+   I caculate the cumulative explained variance ratio under different principal components and choose 90% as the threshold,  which means “n_component” is set to 0.9. This gives us a dimension of 12, which means we have 12 features.
+
+   <img src="https://github.com/user-attachments/assets/8d36802a-5ff2-435c-a7f0-226f6bd1c4a5" width=500px>
+3. MLE for feature selection
